@@ -44,7 +44,6 @@
   bottom: 30px;
 }
 
-.header
 
 .logo {
   background-image: url(/images/logo_place_header.svg);
@@ -75,6 +74,7 @@
   z-index: 1;
 }
 
+
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
@@ -85,6 +85,55 @@
   right: 0;
   
 }
+
+/* description */
+
+  .description {
+    display: flex;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    justify-content: center;
+  }
+
+  .two-columns {
+    display: flex;
+    justify-content: space-between;
+    
+    width: 80%;
+    
+  }
+
+  .two-columns__brif {
+    margin: 0;
+    padding: 0;
+    width: 175px;
+    color: #2f80ed;
+    line-height: 1.2;
+    font-size: 18px;
+    /* border: tomato 1px solid; */
+  }
+
+  .two-columns__main-text {
+    width: 80%;
+    min-width: 784px;
+    border: rgb(248, 41, 4) 1px solid;
+  }
+
+  .two-columns__p {
+    line-height: 34px;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  .two-columns__p-middle {
+    margin: 30px 0;
+  }
+
+  .two-colunms__p_bold {
+    font-weight: bold;
+  }
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
