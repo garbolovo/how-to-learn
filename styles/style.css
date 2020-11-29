@@ -10,16 +10,80 @@
 }
 
 .header {
+  position: relative;
+  display: flex;
+  align-items: center;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
+  background-color: #f2f2f2;
+  border: tomato 1px solid;
+
+}
+
+.header__title {
+  border: rgb(255, 47, 10) 1px solid;
+  width: 730px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bolder;
+  margin: 0;
+  margin-left: 64px;
+  
+
+}
+
+.header__sub-title {
+  border: tomato 1px solid;
+  width: 388px;
+  line-height: 25px;
+  font-size: 18px;
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+}
+
+.header
+
+.logo {
+  background-image: url(/images/logo_place_header.svg);
+  background-size: cover;
+  border: tomato 1px solid;
+  width: 183px;
+  height: 32px;
+  font-size: 20px;
+
+}
+
+.logo__place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+}
+
+.header__main-illustration {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 765px;
+  height: 608px;
+  border: tomato 1px solid;
+  background-image: url(/images/header-image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  background: #2f80ed;
+  position: absolute;
+  top: 64px;
+  right: 0;
+  
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -29,3 +93,5 @@
   margin-right: 0;
   margin-top: 80px;
 }
+
+
