@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4717cf9-7c98-4b97-8769-cadf00a9f3ce" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
     </list>
@@ -39,6 +40,10 @@
       <option name="presentableId" value="Default" />
       <updated>1606586056617</updated>
       <workItem from="1606586058285" duration="12593000" />
+      <workItem from="1606778339516" duration="590000" />
+      <workItem from="1606779559913" duration="2765000" />
+      <workItem from="1606993249519" duration="19819000" />
+      <workItem from="1607108035598" duration="9413000" />
     </task>
     <servers />
   </component>
@@ -46,13 +51,25 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="297" y="38" key="CommitChangelistDialog2" timestamp="1607126813050">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="297" y="38" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1607126813050" />
     <state x="0" y="100" key="SettingsEditor" timestamp="1606596031567">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="0" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1606596031567" />
+    <state x="518" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607114862728">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="518" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1607114862727" />
     <state x="84" y="97" width="676" height="731" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1606614138182">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="84" y="97" width="676" height="731" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.23.1440.877@0.23.1440.877" timestamp="1606614138182" />
+    <state x="145" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1607042562141">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="145" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1607042562141" />
   </component>
 </project>
