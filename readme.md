@@ -9,6 +9,9 @@
 
 ## Технологии используемые при создании этого проекта:
 
+При вертске проекта используется методология БЭМ - Блок, Элемент, Модификатор.
+(block, block__element, block_modificator-name_modificator-value)
+
 - html
 - css
 - animation
