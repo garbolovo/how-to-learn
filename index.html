@@ -7,7 +7,6 @@
   <meta name="keywords" content="html, css, bem">
   <meta name="author" content="Aleksei Levkovich">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="vendor/normalize.css">
   <link rel="stylesheet" href="pages/index.css">
   <title>Научиться учиться</title>
 </head>
@@ -18,9 +17,9 @@
     <header class="header">
       <img src="./images/logo_place_header.svg" alt="логотип заголовка" class="logo logo_place_header">
       <h1 class="header__title">Научиться учиться</h1>
-      <h2 class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей
+      <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей
         жизни?
-        <a href="#" target="_blank" class="header__link">Узнать &#10141;</a></h2>
+        <a href="#" target="_blank" class="header__link">Узнать &#10141;</a></p>
       <img src="./images/header-image.png" alt="изображение заголовка" class="header__main-illustration">
       <div class="header__square-pic rotation"></div>
     </header>
@@ -53,48 +52,52 @@
         <h2 class="section-title">Техники обучения</h2>
         <!-- subtitle -->
         <p class="section-subtitle">Пять практик от Барбары Оакли</p>
+
+
         <div class="cards">
 
           <div class="cards__item">
             <img src="images/cards-attention.png" alt="картинка блока Барбары" class="cards__image">
-            <h2 class="cards__title">Два вида внимания</h2>
-            <div class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное
+            <p class="cards__title">Два вида внимания</p>
+            <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное
               мышление.
-            </div>
+            </p>
           </div>
 
           <div class="cards__item">
             <img src="images/cards-recall.png" alt="картинка блока Барбары" class="cards__image">
-            <h2 class="cards__title">Recall</h2>
-            <div class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.
-            </div>
+            <p class="cards__title">Recall</p>
+            <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.
+            </p>
           </div>
+
+
+          <div class="cards__item">
+            <img src="images/cards-question.png" alt="картинка блока Барбары" class="cards__image">
+            <p class="cards__title">Вопросы</p>
+            <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно
+              волнует.
+            </p>
+          </div>
+
+
+          <div class="cards__item">
+            <img src="images/cards-competence.png" alt="картинка блока Барбары" class="cards__image">
+            <p class="cards__title">Иллюзия Компетентности</p>
+            <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы
+              владеете новой темой.
+            </p>
+          </div>
+
 
 
           <div class="cards__item">
             <img src="images/cards-interliving.png" alt="картинка блока Барбары" class="cards__image">
-            <h2 class="cards__title">Интерливинг</h2>
-            <div class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</div>
-          </div>
-
-          <div class="cards__item">
-            <img src="images/cards-question.png" alt="картинка блока Барбары" class="cards__image">
-            <h2 class="cards__title">Вопросы</h2>
-            <div class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно
-              волнует.
-            </div>
-          </div>
-
-          <div class="cards__item">
-            <img src="images/cards-competence.png" alt="картинка блока Барбары" class="cards__image">
-            <h2 class="cards__title">Иллюзия Компетентности</h2>
-            <div class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы
-              владеете новой темой.
-            </div>
+            <p class="cards__title">Интерливинг</p>
+            <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
           </div>
 
         </div>
-
 
       </section>
 
@@ -105,19 +108,10 @@
         <p class="section-subtitle">Для тех кто любит прокрастинировать</p>
 
         <div class="video__iframes">
-
-          <!--          to wrap each iframe to separate classes to fix width issue-->
           <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
 
           <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
-
-          <!--          <iframe src="https://youtube.com/watch?v=arj7oStGLkU" frameborder="0" class="video__iframe"></iframe>-->
-
-
-          <!--          <iframe src="https://youtube.com/watch?v=5MgBikgcWnY" frameborder="0" class="video__iframe"></iframe>-->
-
         </div>
-
       </section>
 
 
@@ -204,7 +198,7 @@
       <section class="khan">
         <div class="khan__container">
 
-          <h3 class="khan__author">Салман Хан</h3>
+          <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир - школа</h2>
           <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему
             миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду

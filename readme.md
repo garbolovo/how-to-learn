@@ -5,13 +5,13 @@
 * Барбара Оакли
 * Фейнман
 * Салман Хан
-* Джоша Кауфмана
+* Джош Кауфман
 
 ## Технологии используемые при создании этого проекта:
 
 - html
 - css
 - animation
-- ifames для вставки видео с использовнием [YoutubeAPI](https://developers.google.com/youtube/youtube_player_demo))
+- iframes для вставки видео с использовнием [YoutubeAPI](https://developers.google.com/youtube/youtube_player_demo))
 
 

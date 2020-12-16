@@ -1,7 +1,21 @@
 @import url("../vendor/normalize.css");
 
-/*root*/
-@import url("../blocks/root/root.css");
+/* page */
+@import url("../blocks/page/page.css");
+
+/* description */
+@import url("../blocks/description/description.css");
+
+/* digits */
+@import url("../blocks/digits/digits.css");
+
+/* techniques */
+@import url("../blocks/techniques/techniques.css");
+
+
+/* .oakley */
+@import url("../blocks/oakley/oakley.css");
+
 
 /*feynman*/
 @import url("../blocks/feynman/feynman.css");
