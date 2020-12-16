@@ -12,6 +12,6 @@
 - html
 - css
 - animation
-- ifames для вставки видео с использовнием [YoutubeAPI]((https://developers.google.com/youtube/youtube_player_demo))
+- ifames для вставки видео с использовнием [YoutubeAPI](https://developers.google.com/youtube/youtube_player_demo))
 
 
